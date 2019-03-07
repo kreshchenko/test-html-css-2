@@ -53,8 +53,46 @@
           Cart $0.00
         </button>
       </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li>Home</li>
+          <li>Solids</li>
+          <li>Liquids</li>
+          <li>Spray</li>
+          <li>Electric</li>
+          <li>For cars</li>
+        </ul>
+      </nav>
     </header>
-    <main class="container"></main>
+    <main class="container">
+      <section class="main-slider">
+        <h1 class="visually-hidden">Breeze - online store theme</h1>
+
+        <ul class="slider-content">
+          <li><img src="#" alt="Breeze noticeables" /></li>
+          <li class="visually-hidden"><img src="#" alt="Breeze noticeables" /></li>
+          <li class="visually-hidden"><img src="#" alt="Breeze noticeables" /></li>
+        </ul>
+
+        <!--Переключение слайдов круглыми кнопками-->
+        <form class="visually-hidden">
+          <input type="radio" name="slider-item" id="first-slider-item" />
+          <input type="radio" name="slider-item" id="second-slider-item" />
+          <input type="radio" name="slider-item" id="third-slider-item" />
+        </form>
+        <div class="slider-radio-menu">
+          <label for="first-slider-item">1</label>
+          <label for="second-slider-item">2</label>
+          <label for="third-slider-item">3</label>
+        </div>
+        <!--Конец Переключение слайдов круглыми кнопками-->
+
+        <!--Переключение слайдов боковыми кнопками-->
+        <div class="slider-button left-button"></div>
+        <div class="slider-button right-button"></div>
+        <!--Конец Переключение слайдов боковыми кнопками-->
+      </section>
+    </main>
     <footer class="main-footer"></footer>
   </body>
 </html>
