@@ -70,7 +70,15 @@
 
         <!--Список слайдов-->
         <ul class="slider-content">
-          <li><img src="#" alt="Breeze noticeables" /></li>
+            <li class="first-slide">
+              <img src="#" alt="Breeze noticeables" />
+              <span class="slide-header">BReeze Noticiablez</span>
+              <ul class="slide-specifications">
+                <li>The new series of natural air fresheners.</li>
+                <li>FEbreze noticeables Meadowns & RAin</li>
+                <li>Air freshener  REfill</li>    
+              </ul>
+            </li>
           <li class="visually-hidden">
             <img src="#" alt="Breeze noticeables" />
           </li>
@@ -81,21 +89,21 @@
         <!--КОнец списка слайдов-->
 
         <!--Переключение слайдов круглыми кнопками-->
-        <form class="visually-hidden">
-          <input type="radio" name="slider-item" id="first-slider-item" />
-          <input type="radio" name="slider-item" id="second-slider-item" />
-          <input type="radio" name="slider-item" id="third-slider-item" />
+        <form class="slider-radio-menu">
+          <input class="visually-hidden" type="radio" name="slider-item" id="first-slider-item" checked/>
+          <label class="slider-radio-item" for="first-slider-item"></label>
+
+          <input class="visually-hidden" type="radio" name="slider-item" id="second-slider-item" />
+          <label class="slider-radio-item" for="second-slider-item"></label>
+          
+          <input class="visually-hidden" type="radio" name="slider-item" id="third-slider-item" />
+          <label class="slider-radio-item" for="third-slider-item"></label>
         </form>
-        <div class="slider-radio-menu">
-          <label for="first-slider-item">1</label>
-          <label for="second-slider-item">2</label>
-          <label for="third-slider-item">3</label>
-        </div>
         <!--Конец Переключение слайдов круглыми кнопками-->
 
         <!--Переключение слайдов боковыми кнопками-->
-        <div class="slider-button left-button"></div>
-        <div class="slider-button right-button"></div>
+        <div class="left-button"></div>
+        <div class="right-button"></div>
         <!--Конец Переключение слайдов боковыми кнопками-->
       </section>
 
@@ -105,7 +113,7 @@
         <ul>
           <li>
             <a class="main-advertising-item" href="#">
-                <img src="img/best-price.png" alt="Best price this week">   
+                <img src="img/best-price.png" alt="Best">   
                 <h3>
                     Best price <br>
                     <span>this week</span>
@@ -137,8 +145,8 @@
         <header>
             <h2>Best sellers</h2>
             <div class="control-buttons">
-                <div class="slider-button left-button"></div>
-                <div class="slider-button right-button"></div>
+                <div class="left-button"></div>
+                <div class="right-button"></div>
             </div>
         </header>      
         <ul class="product-list">
@@ -146,92 +154,92 @@
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Febreze Air Effects new Zealand Springs</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    
+                        <ul class="bottom-product-card">
                             <li>
-                                550.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ <br> 
+                                    <span class="last-price">725.00$</span>
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
                         </ul>
-                    </div>
+                
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Febreze noticeablez 2 reffils</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                399.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ 
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Beanpod Candies Orange Vanilla Tea light</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                330.00$ <br> 
-                                <span class="visually-hidden">499.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ <br> 
+                                    <span class="last-price">725.00$</span>
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Linen end sky air freshener refill</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                173.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ 
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
                         </ul>
-                    </div>
                 </div>
             </li>
         </ul>
@@ -245,97 +253,96 @@
                 <div class="slider-button right-button"></div>
             </div>
         </header>      
+        
         <ul class="product-list">
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Febreze Air Effects new Zealand Springs</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                        <ul class="bottom-product-card">
                             <li>
-                                550.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ <br> 
+                                    <span class="last-price">725.00$</span>
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
                         </ul>
-                    </div>
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Febreze noticeablez 2 reffils</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                399.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ 
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
-                            </li>            
-                        </ul>
-                    </div>
+                                <button class="product-card-buttons"></button>
+                            </li>           
+                    </ul>
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Beanpod Candies Orange Vanilla Tea light</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                330.00$ <br> 
-                                <span class="visually-hidden">499.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ <br> 
+                                    <span class="last-price">725.00$</span>
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </li>
             <li>
                 <div class="product-card">
                     <img src="img/product-photo.jpg" alt="Product photo">
                     <p>Linen end sky air freshener refill</p>
-                    <div class="bottom-product-card">
-                        <ul>
+                    <ul class="bottom-product-card">
                             <li>
-                                173.00$ <br> 
-                                <span class="visually-hidden">725.00$</span>
+                                <div class="product-card-price-container">
+                                    550.00$ 
+                                </div>
                             </li>
                             <li>
-                                <span class="lines-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="like-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>
                             <li>
-                                <span class="add-to-cart-icon"></span>
+                                <button class="product-card-buttons"></button>
                             </li>            
                         </ul>
-                    </div>
                 </div>
             </li>
         </ul>
@@ -345,9 +352,9 @@
             <ul>
                 <li class="main-info-item">
                     <h3>About us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
                 </li>
               <li class="main-info-item">
                   <h3>News</h3>
@@ -368,20 +375,22 @@
               </li>
               <li class="main-info-item">
                   <h3>Newsletter</h3>
-                  <p>Cursus is dapidusultrices...</p>
-                  <form action="#">
-                    <input type="email" placeholder="Enter youe email address..." required/>
+                  <p>Fermentum parturient lacus tristique habbitant nullam morbi et odio nibs mus dictum telliuus eat</p>
+                  <form class="main-info-item-email" action="#">
+                    <input  type="email" placeholder="Enter youe email address..." required/>
                     <button class="send-email-button">
                         <span class="visually-hidden">Send email</span>
                     </button>
                   </form>
                   <div class="info-item-bottom-email">
-                      <p>Ver labortis gravida. Curcus in dapitus</p>
+                      <p>Fermentum parturient lacus tristique habbitant lacus tristique </p>
                   </div>
               </li>
           </ul>
       </section>
     </main>
-    <footer class="main-footer"></footer>
+    <footer class="main-footer">
+        
+    </footer>
   </body>
 </html>
